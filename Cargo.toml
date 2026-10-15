@@ -1,0 +1,11 @@
+[package]
+name = "circles"
+version = "0.1.0"
+edition = "2024"
+description = "Circles: a floating, always-on-top video call app built with GPUI"
+license = "MIT"
+
+[dependencies]
+anyhow = "1"
+env_logger = "0.11"
+gpui = "0.2.2"
