@@ -143,15 +143,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "around"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "env_logger",
- "gpui",
-]
-
-[[package]]
 name = "arrayref"
 version = "0.3.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -885,6 +876,15 @@ dependencies = [
  "crypto-common 0.1.7",
  "inout",
  "zeroize",
+]
+
+[[package]]
+name = "circles"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "env_logger",
+ "gpui",
 ]
 
 [[package]]

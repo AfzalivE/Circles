@@ -1,4 +1,4 @@
-# Around (GPUI)
+# Circles
 
 A video call app in the style of [Around](https://www.around.co): small round
 video bubbles that float over your work, with compact controls. The desktop UI

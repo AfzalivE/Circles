@@ -76,7 +76,7 @@ pub fn open(
         is_minimizable: false,
         window_background: WindowBackgroundAppearance::Transparent,
         window_decorations: Some(WindowDecorations::Client),
-        app_id: Some("around".into()),
+        app_id: Some("circles".into()),
         ..Default::default()
     };
     cx.open_window(options, |window, cx| {
@@ -93,7 +93,7 @@ impl CallWindow {
     ) -> Self {
         let focus = cx.focus_handle();
         window.focus(&focus);
-        window.set_window_title(&format!("Around: {}", call.room));
+        window.set_window_title(&format!("Circles: {}", call.room));
 
         let ticker = cx.spawn_in(window, async move |this, cx| {
             loop {

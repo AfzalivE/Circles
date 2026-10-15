@@ -1,8 +1,8 @@
 [package]
-name = "around"
+name = "circles"
 version = "0.1.0"
 edition = "2024"
-description = "A floating, always-on-top video call app in the style of Around, built with GPUI"
+description = "Circles: a floating, always-on-top video call app built with GPUI"
 license = "MIT"
 
 [dependencies]

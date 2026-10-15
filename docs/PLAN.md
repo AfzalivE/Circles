@@ -1,8 +1,8 @@
-# Project plan
+# Circles: project plan
 
 ## Goal
 
-Make a desktop video call app that works like Around:
+Make Circles, a desktop video call app that works like Around:
 
 - Small round video bubbles that float over other apps.
 - Compact controls that do not take space from your work.
@@ -59,9 +59,9 @@ lets us test the UI with the simulated room.
    and draw it with `img()` clipped to a circle. On macOS, use GPUI `surface()`
    with the `CVPixelBuffer` for less copying.
 6. Use LiveKit audio levels for the speaking ring.
-7. Room links: `around://join/<room>` and a web page that opens the app.
+7. Room links: `circles://join/<room>` and a web page that opens the app.
 
-### Phase 3: Around features
+### Phase 3: Features from Around
 
 - Screen share in its own window, with a picker for screen or window.
 - Auto-framing: crop the camera to the face so it fits the circle.

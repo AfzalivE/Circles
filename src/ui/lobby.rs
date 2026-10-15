@@ -22,10 +22,10 @@ pub fn open(cx: &mut App) -> Result<WindowHandle<Lobby>> {
     let options = WindowOptions {
         window_bounds: Some(WindowBounds::Windowed(bounds)),
         titlebar: Some(TitlebarOptions {
-            title: Some("Around".into()),
+            title: Some("Circles".into()),
             ..Default::default()
         }),
-        app_id: Some("around".into()),
+        app_id: Some("circles".into()),
         ..Default::default()
     };
     cx.open_window(options, |_, cx| {
@@ -123,7 +123,7 @@ impl Render for Lobby {
                 div()
                     .text_size(px(28.))
                     .font_weight(FontWeight::BOLD)
-                    .child("Around"),
+                    .child("Circles"),
             )
             .child(
                 div()

@@ -1,4 +1,4 @@
-//! Colors and shared styles. Around uses a dark, glassy look on top of whatever
+//! Colors and shared styles. Circles uses a dark, glassy look on top of whatever
 //! is behind the floating window.
 
 use gpui::{BoxShadow, Hsla, hsla, point, px};
